@@ -12,7 +12,7 @@ function runMe(){
     message.innerHTML = 'Nice going';
     message.style.color = 'green';
     u_name.style.backgroundColor = 'green';
-    u_name.style.color = 'white';
+    u_name.style.color = 'gray';
   }else if ( u_name.value.length > 8){
     message.innerHTML = 'Ok you hit the mark';
     message.style.color = 'orange';
