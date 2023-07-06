@@ -5,7 +5,7 @@ let message = document.getElementById('message');
 function runMe(){
   if( u_name.value.length < 3){
     message.innerHTML = 'put more letters';
-    message.style.color = 'red';
+    message.style.color = 'blue';
     u_name.style.backgroundColor = 'red';
     u_name.style.color = 'white';
   }else if ( u_name.value.length == 5){
