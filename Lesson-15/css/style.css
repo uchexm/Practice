@@ -1,0 +1,9 @@
+ div{
+      width: 400px;
+      background-color: aqua;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+    h3, p{
+       color: aliceblue;
+    }

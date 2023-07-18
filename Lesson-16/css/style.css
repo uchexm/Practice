@@ -1,0 +1,20 @@
+#box{
+  width: 500px;
+  height: auto;
+}
+p{
+  color: gray;
+}
+.bxt{
+  font-style: italic;
+}
+#box p{
+  color: teal;
+}
+div#box .st{
+  color: rgb(23, 43, 60);
+}
+div#box > p > span{
+   font-weight: bold;
+   color: #000;
+}

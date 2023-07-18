@@ -1,0 +1,14 @@
+.box{
+  width: 600px;
+  height: auto;
+  margin: 25px;
+  padding: 10px;
+  background-color: teal;
+  font-family: sans-serif;
+  font-size: small;
+  color: aliceblue;
+  line-height: 2em;
+  border: 3px solid orange;
+  border-radius: 3px;
+  box-shadow: 12px 12px 22px rgba(28, 26, 26, 0.753);
+}
