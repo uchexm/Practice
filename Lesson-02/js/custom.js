@@ -1,26 +1,21 @@
-let u_name = document.myForm.u_name;
-let message = document.getElementById('message');
+"use strict"
+let something = "hello people";
+let people = {
+  u_name: 1,
+  u_diffname: 2
+};
 
-
-function runMe(){
-  if( u_name.value.length < 3){
-    message.innerHTML = 'put more letters';
-    message.style.color = 'blue';
-    u_name.style.backgroundColor = 'red';
-    u_name.style.color = 'white';
-  }else if ( u_name.value.length == 5){
-    message.innerHTML = 'Nice going';
-    message.style.color = 'green';
-    u_name.style.backgroundColor = 'green';
-    u_name.style.color = 'gray';
-  }else if ( u_name.value.length > 8){
-    message.innerHTML = 'Ok you hit the mark';
-    message.style.color = 'orange';
-    u_name.style.backgroundColor = 'orange';
-    u_name.style.color = 'white';
-  }
+function myFunction(a,b,c){
+  return a+b+c;
 }
 
-/*You can use js minify to minify the js 
-and js beautify to make it 
-*/
+document.getElementById("heading").innerHTML = something
+
+document.write("hello uche i am from js")
+
+let myRe = /hello/;
+let myString = "does this include hello world in it";
+
+if(myRe.test(myString)){
+  alert('yes');
+}
